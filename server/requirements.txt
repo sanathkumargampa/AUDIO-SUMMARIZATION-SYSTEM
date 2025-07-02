@@ -1,0 +1,24 @@
+# Flask dependencies
+flask==2.3.3
+flask-cors==4.0.0
+werkzeug==2.3.7
+
+# Machine learning and transcription
+torch==2.2.2  # Adjust if using M1 Mac with appropriate wheel
+transformers==4.52.3
+openai-whisper==20230918  # Use known stable release
+
+# Audio processing
+pydub==0.25.1
+
+# Text summarization and formatting
+docx==0.2.4
+reportlab==4.1.0  # for PDF generation
+
+# Database
+pymongo==4.13.0
+
+# Others (required by whisper/transformers)
+tqdm==4.67.1
+numpy==1.26.4
+requests==2.31.0
